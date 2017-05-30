@@ -133,7 +133,7 @@ If you like to learn by watching, here is a short video on creating a reverse pr
 
 # Earn Extra-points
 
-Now that you have created a reverse proxy using OpenAPI spec, Click on the Develop tab & explore the flow conditions populated from OpenAPI spec. Also, Explore OpenAPI Spec editor using which you can edit OpenAPI specification & Generate API Proxy using the link above the OpenAPI Spec editor. Explore trace tab in Proxy overview page.
+Now that you have created a reverse proxy using an OpenAPI spec, click on the "Develop" tab & explore the flow conditions populated from the OpenAPI spec. Also, explore the OpenAPI Spec editor where you can edit the OpenAPI specification & test the API requests. Finally, explore the "Trace" tab in the proxy overview page.
 
 # Quiz
 
