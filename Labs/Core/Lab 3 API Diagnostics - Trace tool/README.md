@@ -60,7 +60,7 @@ Note: In the following snippet, the Pattern value that reads *{my_initials}* is 
 </ExtractVariables>
 ```
 
-* Click on **Save**. It will prompts to create a new revision, then click on *Save as new Revision*. 
+* Click on **Save**. If you are prompted to create a new revision, then click on *Save as new Revision*.   
 
 ![image alt text](./media/image_4.png)
 
@@ -78,7 +78,7 @@ Consider a scenario where one of your API consumers reports seeing 404 errors in
 * Locate the URL field and append the following to the end
 
 ```
-/7ed25ec5-c89f-11e6-861b-0ad881f403bfaaa?intials={your intials}
+/7ed25ec5-c89f-11e6-861b-0ad881f403bfaaa?initials={your initials}
 ```
 
 * Update above *{your initials}* with your actual initials and remove the braces.
