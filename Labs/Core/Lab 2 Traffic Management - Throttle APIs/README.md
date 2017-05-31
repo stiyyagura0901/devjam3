@@ -102,13 +102,13 @@ If you like to learn by watching, here is a short video on using Spike Arrest po
 
 # Earn Extra-points
 
-Now that you have protected your backend against spike in traffic, Explore more about spike arrest policy using docs here, [http://docs.apigee.com/api-services/reference/spike-arrest-policy](http://docs.apigee.com/api-services/reference/spike-arrest-policy) & update the policy with identifer like queryparam on which spike arrest counter is updated. Use message weight property to assign a weight to the counter.
+Now that you have protected your backend against spike in traffic, Explore more about spike arrest policy using docs here, [http://docs.apigee.com/api-services/reference/spike-arrest-policy](http://docs.apigee.com/api-services/reference/spike-arrest-policy). Use the "message weight" property to assign a weight to the counter.
 
 # Quiz
 
-1. Assume there is a single message processor, Spike Arrest rate limit is 2 pm, What is the interval of time in which a single API Request is allowed to reach target server ?
+1. Assume there is a single message processor, Spike Arrest rate limit is 2 pm, What is the interval of time in which a single API Request is allowed to reach target server?
 
-2. Is it possible to implement spike arrest based on run time variables like per developer / per app ?
+2. Is it possible to implement spike arrest based on run time variables like per developer / per app?
 
 # Summary
 
