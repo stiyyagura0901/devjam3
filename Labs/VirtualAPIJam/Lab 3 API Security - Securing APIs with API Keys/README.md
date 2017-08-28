@@ -1,6 +1,6 @@
 # API Security : Securing APIs with API Key
 
-*Duration : 30 mins*
+*Duration : 25 mins (Instructor Led)*
 
 *Persona : API Team*
 
@@ -217,5 +217,5 @@ In this lab you learned how to protect your API Proxy using the Verify API Key p
 
 How did you like this lab? Rate [here](https://goo.gl/forms/XxDqVtWHnyFdEChv1).
 
-Now go to [Lab-5](https://github.com/apigee/devjam3/tree/master/Labs/Core/Lab%205%20Traffic%20Management%20-%20Rate%20Limit%20APIs)
+Now go to [Lab-4](../Lab%204%20Traffic%20Management%20-%20Rate%20Limit%20APIs)
 
