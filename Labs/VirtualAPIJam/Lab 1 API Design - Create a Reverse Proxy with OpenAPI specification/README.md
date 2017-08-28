@@ -1,6 +1,6 @@
 # API Design : Create a Reverse Proxy with OpenAPI Specification
 
-*Duration : 20 mins*
+*Duration : 15 mins (Instructor Led)* 
 
 *Persona : API Team*
 
@@ -159,5 +159,5 @@ That completes this hands-on lesson. In this simple lab you learned how to creat
 
 How did you like this lab? Rate [here](https://goo.gl/forms/G8LAPkDWVNncR9iw2).
 
-Now go to [Lab-2](https://github.com/apigee/devjam3/tree/master/Labs/Core/Lab%202%20Traffic%20Management%20-%20Throttle%20APIs)
+Now go to [Lab-2](../Lab%202%20Traffic%20Management%20-%20Throttle%20APIs)
 
