@@ -1,6 +1,6 @@
 # Traffic Management : Throttle APIs 
 
-*Duration : 20 mins*
+*Duration : 15 mins (Instructor Led)*
 
 *Persona : API Team / Security*
 
@@ -128,4 +128,4 @@ That completes this hands-on lesson. In this simple lab you learned how to prote
 
 How did you like this lab? Rate [here](https://goo.gl/forms/oivm4A6DqBKM9AEJ3).
 
-Now go to [Lab-3](https://github.com/apigee/devjam3/tree/master/Labs/Core/Lab%203%20API%20Diagnostics%20-%20Trace%20tool)
+Now go to [Lab-3](../Lab%203%20API%20Security%20-%20Securing%20APIs%20with%20API%20Keys)
