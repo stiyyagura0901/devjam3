@@ -18,7 +18,7 @@ In this lab, you will protect an existing API Proxy with the [Verify API Key Pol
 
 # Pre-requisites
 
-For this lab, you will need an API Proxy that is not currently secured.  If you do not have an API Proxy available for this lab, revisit the lab "API Design : Create a Reverse Proxy with OpenAPI Specification" and then return here to complete these steps.
+For this lab, you will need an API Proxy that is not currently secured.  If you do not have an API Proxy available for this lab, revisit the lab "API Design : Create a Reverse Proxy from OpenAPI Spec" and then return here to complete these steps.
 
 # Instructions
 
