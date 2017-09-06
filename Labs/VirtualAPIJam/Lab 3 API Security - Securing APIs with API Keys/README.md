@@ -1,6 +1,6 @@
 # API Security : Securing APIs with API Key
 
-*Duration : 15 mins (Instructor Led)*
+*Duration : 10 mins (Instructor Led)*
 
 *Persona : API Team*
 
@@ -30,7 +30,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 ![image alt text](./media/image_0.jpg)
 
-* Select the **{your_initials}**_employee_proxty that you created in an earlier lab exercise.
+* Select the **{your_initials}**_employee_proxy that you created in an earlier lab exercise.
 
 ![image alt text](./media/image_1_123.png)
 
@@ -97,11 +97,9 @@ If you would rather watch a video that covers this topic, point your browser [he
 
 # Quiz
 
-1. What would happen if a Quota Policy were placed before the Verify API Key policy?
+1. Why is the Verify API Key policy typically found as the first policy in the Request PreFlow?  When might it be in a conditional PreFlow instead of the "All" PreFlow?
 
-2. Why is the Verify API Key policy typically found as the first policy in the Request PreFlow?  When might it be in a conditional PreFlow instead of the "All" PreFlow?
-
-3. How would you configure the policy to get the API Key from a header called "Api-Key" instead of the default query parameter location?
+2. How would you configure the policy to get the API Key from a header called "Api-Key" instead of the default query parameter location?
 
 # Summary
 
@@ -117,5 +115,5 @@ In this lab you learned how to protect your API Proxy using the Verify API Key p
 
 How did you like this lab? Rate [here](https://goo.gl/forms/XxDqVtWHnyFdEChv1).
 
-Now go to [Lab-4](../Lab%204%20Traffic%20Management%20-%20Rate%20Limit%20APIs)
+Now go to [Lab-4](../Lab%204%20API%20Consumption%20-%20Developers%20and%20Apps)
 
