@@ -95,18 +95,6 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 If you would rather watch a video that covers this topic, point your browser [here](https://youtu.be/3nUFCOgGlS8).
 
-# Earn Extra-points
-
-Now that you have secured an API Proxy with API Key, you have access to details about the calling App, Developer, and associated API Product in the API flow.  See if you can locate these details for a protected API call.
-
-A few examples of where this might be useful.
-
-* Route to a sandbox backend when a Product has the custom attribute of sandbox=true.
-
-* Implement different quota policies for Apps that have been approved but not yet verified.
-
-* Analyze traffic by calling App, Developer, or Product
-
 # Quiz
 
 1. What would happen if a Quota Policy were placed before the Verify API Key policy?
