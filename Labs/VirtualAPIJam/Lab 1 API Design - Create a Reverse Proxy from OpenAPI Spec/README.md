@@ -139,8 +139,6 @@ Now that you have created a reverse proxy using an OpenAPI spec, click on the "D
 
 1. How do you download (backup) the proxy you just created ? 
 
-2. Why is the Trace tool useful in API Proxy development?
-
 # Summary
 
 That completes this hands-on lesson. In this simple lab you learned how to create a proxy for an existing backend using OpenAPI Specification and Apigee Edge proxy wizard.
