@@ -50,7 +50,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 * You should see a successful 2xx response for your API Call (it may take a few seconds for the trace results to appear)
 
-* If you are not able to successfully test an API Proxy in the Trace Tool, revisit the lab "API Design : Create a Reverse Proxy with OpenAPI Specification"
+* If you are not able to successfully test an API Proxy in the Trace Tool, revisit the lab "API Design : Create a Reverse Proxy from OpenAPI Spec"
 
 ## Add a Verify API Key Policy
 
