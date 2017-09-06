@@ -1,4 +1,4 @@
-# Publishing APIs : Publish documentation
+# API Publishing: API Products and Developer Portals
 
 *Duration : 15 mins (Instructor Led)*
 
@@ -124,4 +124,4 @@ You’ve learned how to do the following;
 
 How did you link this lab? Rate [here](https://goo.gl/forms/j33WG2U0NFf02QHi1).
 
-Now go to [Lab-6](../Lab%206%20Consume%20APIs)
+Now go to [Lab-3](../Lab%203%20API%20Security%20-%20Securing%20APIs%20with%20API%20Keys)
