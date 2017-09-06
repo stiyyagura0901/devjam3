@@ -1,4 +1,4 @@
-# API Publishing : Consume APIs 
+# API Consumption : Developers and Apps 
 
 *Duration : 20 mins (Instructor Led)*
 
@@ -127,5 +127,7 @@ That completes this hands-on lesson. In this simple lab you learned how to self 
 # Rate this lab
 
 How did you like this lab? Rate [here](https://goo.gl/forms/H4qE5nLy36yWjj642).
+
+Now to go [Lab-5](../Lab%205%20Traffic%20Management%20-%20Rate%20Limit%20APIs/README.md)
 
 
