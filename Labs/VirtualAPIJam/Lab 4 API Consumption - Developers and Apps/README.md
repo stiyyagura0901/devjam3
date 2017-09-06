@@ -6,7 +6,7 @@
 
 # Use case
 
-As an App Developer you would like to learn about APIs exposed by the API Team using API Documentation. Register in API Program to get access to the APIs exposed by the API Team.
+As an App Developer you would like to learn about APIs exposed by the API Team using API Documentation. Register into an API Program to get access to the APIs exposed by the API Team.
 
 # How can Apigee Edge help?
 
@@ -16,7 +16,7 @@ In this lab, we will see how to register as an App Developer, navigate through A
 
 # Pre-requisites
 
-Secure APIs with API Keys, Publishing API Documentation lab exercises. If not, jump back to *API Security - Securing APIs with API Keys* lab.
+*API Security* and *API Publishing* lab exercises. 
 
 # Instructions
 
@@ -108,7 +108,7 @@ Now that you have Registered in Developer Portal, Created App, Read API Document
 
 # Quiz
 
-1. When you create an APP, What are the different keys associated with it ?
+1. When you create an App, What are the different keys associated with it ?
 
 2. Is it possible to create different Apps with same App Name ?
 
@@ -116,7 +116,7 @@ Now that you have Registered in Developer Portal, Created App, Read API Document
 
 # Summary
 
-That completes this hands-on lesson. In this simple lab you learned how to self register as a Developer to access APIs, Create Apps, Access API Keys, Navigate through API Documentation.
+That completes this hands-on lesson. In this simple lab you learned how to self register as a Developer to access APIs, Create Apps, Access API Keys, and Navigate through API Documentation.
 
 # References
 
