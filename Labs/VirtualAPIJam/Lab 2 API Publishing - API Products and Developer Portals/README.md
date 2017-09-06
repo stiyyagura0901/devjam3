@@ -1,12 +1,12 @@
 # API Publishing: API Products and Developer Portals
 
-*Duration : 15 mins (Instructor Led)*
+*Duration : 20 mins (Instructor Led)*
 
 *Persona : API Team*
 
 # Use case
 
-You have an API Proxy that you would like to share with App Developers.  You want to enable developers to learn about, register for, and begin using your API Proxy.
+You have an API Proxy that you would like to share with App Developers via a Developer Portal.  You want to enable developers to learn about, register for, and begin using your API Proxy.
 
 # How can Apigee Edge help?
 
@@ -21,16 +21,6 @@ For this lab, you will need…
 * An OpenAPI specification uploaded to your Organization.  This specification will make up the documentation of your API Proxy.  If you do not have an OpenAPI Specification available for this lab, revisit the lab *API Design : Create a Reverse Proxy with OpenAPI Specification* and then return here to complete these steps.
 
 # Instructions
-
-## Review your OpenAPI Specification
-
-* Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI
-
-* Select **Develop → Specs**
-
-![image alt text](./media/image_0.png)
-
-* Review the OpenAPI Specification in the Swagger Editor.
 
 ## Publish API as part of API Product
 
