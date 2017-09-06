@@ -20,8 +20,6 @@ For this lab, you will need…
 
 * An OpenAPI specification uploaded to your Organization.  This specification will make up the documentation of your API Proxy.  If you do not have an OpenAPI Specification available for this lab, revisit the lab *API Design : Create a Reverse Proxy with OpenAPI Specification* and then return here to complete these steps.
 
-* An API Product that contains the API Proxy related to the above OpenAPI Specification.  If you have not created an API Product, revisit the lab *API Security: Securing APIs with API Keys* and then return here to complete these steps.
-
 # Instructions
 
 ## Review your OpenAPI Specification
@@ -33,6 +31,34 @@ For this lab, you will need…
 ![image alt text](./media/image_0.png)
 
 * Review the OpenAPI Specification in the Swagger Editor.
+
+## Publish API as part of API Product
+
+API Products (which contain API Proxies) are the unit of deployment to the Developer Portal, where App Developers can learn about, register for, and consume your APIs.  Read more about API Products [here](http://docs.apigee.com/developer-services/content/what-api-product).
+
+* Select **Publish → API Products** from the side navigation menu
+
+* Click  **+API Product** and populate the following fields
+
+    * Section: Product Details
+
+        * Name: **{your_initials}_{api_name}**_product
+
+        * Environment: test
+
+        * Access: Public
+
+    * Section: Resources
+
+        * Section: API Proxies
+
+            * Click the **+API Proxy** button
+
+            * Select your Employee API Proxy.
+
+* **Save** the API Product.
+
+Note: We are adding the entire API Proxy to the API Product.  We can just as easily select one or more operations from one or more API Proxies and bundle them together in an API Product.
 
 ## Publish a new Portal on Apigee Edge
 
