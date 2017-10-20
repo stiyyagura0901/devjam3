@@ -115,5 +115,5 @@ In this lab you learned how to protect your API Proxy using the Verify API Key p
 
 How did you like this lab? Rate [here](https://goo.gl/forms/XxDqVtWHnyFdEChv1).
 
-Now go to [Lab-4](../Lab%204%20API%20Consumption%20-%20Developers%20and%20Apps)
+Now go to [Lab-3](../Lab%203%20API%20Publishing%20-%20API%20Products%20and%20Developer%20Portals)
 
