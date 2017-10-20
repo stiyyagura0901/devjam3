@@ -156,5 +156,5 @@ That completes this hands-on lesson. In this simple lab you learned how to creat
 
 How did you like this lab? Rate [here](https://goo.gl/forms/G8LAPkDWVNncR9iw2).
 
-Now go to [Lab-2](../Lab%202%20API%20Publishing%20-%20API%20Products%20and%20Developer%20Portals)
+Now go to [Lab-2](../Lab%202%20API%20Security%20-%20Securing%20APIs%20with%20API%20Keys)
 
