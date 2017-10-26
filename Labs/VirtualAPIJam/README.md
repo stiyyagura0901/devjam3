@@ -11,17 +11,11 @@ This workshop will be valuable to API developers, architects, and anyone who wan
 You will have to sign up for a free trial account on Apigee Edge, which you can use to build our labs on the day of the API Jam. Visit this page to create an account: https://login.apigee.com/sign_up
 
 ### Agenda
-
-Introduction to Apigee Edge API Management
-Basic Concepts - Part 1:
-What is Edge? - A Walk-through of the Apigee Edge Management UI
-Orgs, Environments & Platform Users
-What is an API Proxy? What are flows & policies?
-Lab 1: Design & Create an API Proxy
-Lab 2: Create and publish an API product Secure your API with an API Key
-Basic Concepts - Part 2:
-What is an API product? What is the Developer Portal?
-Relationship between Developers, Apps, API Keys, API Products & API Proxies
-Lab 3: Create and publish an API product
-Lab 4: Consume your API Product
-Lab 5: Throttling API traffic
+* Introduction to Apigee Edge API Management
+* Basic Concepts - Part 1: A Walk-through of the Apigee Edge Management UI, Orgs, Environments & Platform Users
+* Lab 1: Design & Create an API Proxy
+* Lab 2: Create and publish an API product Secure your API with an API Key
+* Basic Concepts - Part 2: The relationship between Developers, Apps, API Keys, API Products & API Proxies
+* Lab 3: Create and publish an API product
+* Lab 4: Consume your API Product
+* Lab 5: Traffic Management & Quotas
