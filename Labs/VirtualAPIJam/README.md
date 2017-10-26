@@ -1,5 +1,5 @@
 # Virtual API Jam
-This is the supporting material for a remotely/virtually delievered, 2 hour hands-on workshop that introduces developers to Apigee Edge.  
+This is the supporting material for a remotely/virtually delivered, 2 hour hands-on workshop that introduces developers to Apigee Edge.  
 
 ### Why should you attend Apigee’s API Jam?
 Apigee’s API Jam workshop provides a streamlined approach to evaluating the Apigee Edge platform. The lab-based curriculum covers the most critical evaluation criteria that companies should consider when selecting an API management platform. This workshop takes into account the experience of hundreds of customers who have used Apigee Edge to implement a successful API program. It will teach you how to use the Apigee Edge platform to easily expose your backend services as secure, scalable APIs that developers will actually want to use. By the end of this workshop, you will walk away with practical hands-on experience using the Apigee Edge platform, along with an understanding of its comprehensive capabilities.
@@ -19,3 +19,7 @@ You will have to sign up for a free trial account on Apigee Edge, which you can 
 * Lab 3: Create and publish an API product
 * Lab 4: Consume your API Product
 * Lab 5: Traffic Management & Quotas
+
+#### Apigee Community 
+If you have any questions/comments please visit https://community.apigee.com/index.html
+
