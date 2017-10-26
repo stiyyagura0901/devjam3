@@ -81,13 +81,11 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 * Click **Start Trace Session** to begin a trace session.
 
-* Click **Send** to send a request.  If your API Proxy requires query parameters, add them  prior to sending (Do not add the API Key yet)
+* Click **Send** to send a request.  
 
 * You should see a 401 (unauthorized) response for your API Call because the API Proxy was expecting an API Key as a query parameter.  See the trace session below
 
-* Now add the query parameter ```?apikey={your_api_key}``` to the URL in the trace tool and try again.  (Use the API Key you created [here](#bookmark=id.mueb50zfeta3)) and resend the request.
-
-* You should see a 2xx response code and the Trace for that request should show that the Verify API Key policy is now passing.
+* NOTE: In Lab 4, you will get an API Key that will allow you to make this API call successfully.
 
 ![image alt text](./media/image_11.png)
 
