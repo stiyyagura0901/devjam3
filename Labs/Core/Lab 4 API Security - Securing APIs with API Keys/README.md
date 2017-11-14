@@ -6,7 +6,7 @@
 
 # Use case
 
-You have an API Proxy that you want to secure, so that you can manage access and perform business logic based on the client making the call.  In addition authorizing users, you want to know which Developer App is making calls so you can leverage that data to customize your API behavior based on the entitlement level of the caller, or even the specific caller.  You also would like to be able to see who is calling your API Proxies in your Analytics dashboards.
+You have an API Proxy that you want to secure, so that you can manage access and perform business logic based on the client making the call.  In addition to authorizing users, you want to know which Developer App is making calls so you can leverage that data to customize your API behavior based on the entitlement level of the caller, or even the specific caller.  You also would like to be able to see who is calling your API Proxies in your Analytics dashboards.
 
 # How can Apigee Edge help?
 
@@ -30,41 +30,43 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 ## Choose (and invoke) an API Proxy to secure
 
-* Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI
+1. Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI
 
-* Select **Develop → API Proxies**
+2. Select **Develop → API Proxies**
 
 ![image alt text](./media/image_0.jpg)
 
-* Select the **{your_initials}**_employee_proxty that you created in an earlier lab exercise.
+3. Select the **{your_initials}**_employee_proxy that you created in an earlier lab exercise.
 
 ![image alt text](./media/image_1_123.png)
 
-* Verify that the API Proxy is deployed to an environment from the **Overview** page.  Environment(s) to which the selected revision of the API Proxy is deployed will be indicated by a green circle.  If it is not deployed, click an environment from the "Deployment" pull-down to deploy the API Proxy to that environment.
+4. Verify that the API Proxy is deployed to an environment from the **Overview** page.  Environment(s) to which the selected revision of the API Proxy is deployed will be indicated by a green circle.  If it is not deployed, click an environment from the "Deployment" pull-down to deploy the API Proxy to that environment.
 
- ![image alt text](./media/image_2.png)
+![image alt text](./media/image_2.png)
 
-* Verify that you can successfully make calls using the built-in trace tool.
+5. Remove the **Extract Variables** policy that you created in the previous lab.  Click on **X** on the top right corner of   the policy to remove the policy.
 
-* Click the **Trace** tab near the top of the window.
+6. Verify that you can successfully make calls using the built-in trace tool.
 
-* The Trace view allows you to initiate tracing for up to 10 minutes, during which time all requests (regardless of whether they are sent from the trace tool or any other client) will be captured and their traces made visible to you.
+7. Click the **Trace** tab near the top of the window.
 
-* Click **Start Trace Session** to begin a trace session.
+   The Trace view allows you to initiate tracing for up to 10 minutes, during which time all requests (regardless of whether      they are sent from the trace tool or any other client) will be captured and their traces made visible to you.
 
-* Click **Send** to send a request.  If your API Proxy requires query parameters add them here prior to sending.
+8. Click **Start Trace Session** to begin a trace session.
 
-* You should see a successful 2xx response for your API Call (it may take a few seconds for the trace results to appear)
+9. Click **Send** to send a request.  If your API Proxy requires query parameters add them here prior to sending.
 
-* If you are not able to successfully test an API Proxy in the Trace Tool, revisit the lab "API Design : Create a Reverse Proxy with OpenAPI Specification"
+   You should see a successful 2xx response for your API Call (it may take a few seconds for the trace results to appear)
+
+   If you are not able to successfully test an API Proxy in the Trace Tool, revisit the lab "API Design : Create a Reverse        Proxy with OpenAPI Specification"
 
 ## Publish API as part of API Product
 
 Once secured, consuming apps will need an API Key to successfully invoke your API.  The way that Developer (consumer) Apps request API Keys is via an API Product.  In short, API Products are the unit of deployment to the Developer Portal, where App Developers can learn about, register for, and consume your APIs.  Read more about API Products [here](http://docs.apigee.com/developer-services/content/what-api-product).
 
-* Select **Publish → API Products** from the side navigation menu
+1. Select **Publish → API Products** from the side navigation menu
 
-* Click  **+API Product** and populate the following fields
+2. Click  **+API Product** and populate the following fields
 
     * Section: Product Details
 
@@ -82,19 +84,19 @@ Once secured, consuming apps will need an API Key to successfully invoke your AP
 
             * Select your Employee API Proxy.
 
-* **Save** the API Product.
+3. **Save** the API Product.
 
-Note: We are adding the entire API Proxy to the API Product.  We can just as easily select one or more operations from one or more API Proxies and bundle them together in an API Product.
+   Note: We are adding the entire API Proxy to the API Product.  We can just as easily select one or more operations from one    or more API Proxies and bundle them together in an API Product.
 
 ## Create An App Developer
 
 Next we will create an App Developer who can consume the new API Product.
 
-* Select **Publish → Developers** from the side navigation menu
+1. Select **Publish → Developers** from the side navigation menu
 
 ![image alt text](./media/image_4.png)
 
-* Click **+Developer**
+2. Click **+Developer**
 
 ![image alt text](./media/image_5.png)
 
@@ -108,7 +110,7 @@ Next we will create an App Developer who can consume the new API Product.
 
     * Username: **{your_initials}**_apikeylab_developer
 
-* Click **Create** to save the new App Developer.
+3. Click **Create** to save the new App Developer.
 
 ![image alt text](./media/image_6.png)
 
@@ -116,15 +118,15 @@ Next we will create an App Developer who can consume the new API Product.
 
 An App Developer can create any number of Apps.  Each App can register for any number of products.  We will create an App for our new App Developer, and register it with the API Product we created earlier in the lab.  Read more about Developer Apps [here](http://docs.apigee.com/developer-services/content/creating-apps-surface-your-api).
 
-* Click **Publish → Apps** in the side navigation
+1. Click **Publish → Apps** in the side navigation
 
 ![image alt text](./media/image_7.png)
 
-* Click **+App**
+2. Click **+App**
 
 ![image alt text](./media/image_8.png)
 
-* Populate the following fields
+3. Populate the following fields
 
     * Name: **{your_initials}_{product_name}**_app
 
@@ -134,25 +136,25 @@ An App Developer can create any number of Apps.  Each App can register for any n
 
 ![image alt text](./media/image_9.png)
 
-* Click **Save**.
+4. Click **Save**.
 
-* Open the newly created App and click *Show* under *Consumer Key*.  This will reveal the API Key that must be used to invoke the API when API Key verification is in use.  Copy this key into a text document for later use
+   Open the newly created App and click *Show* under *Consumer Key*.  This will reveal the API Key that must be used to invoke the API when API Key verification is in use.  Copy this key into a text document for later use.  
 
 ![image alt text](./media/image_10.png)
 
 ## Add a Verify API Key Policy
 
-* Menu: **Develop > API Proxies**
+1. Menu: **Develop > API Proxies**
 
-* Open your API Proxy and click the **Develop** tab to see the flow editor (you may have to move the panes to see the full request and response flow lines)
+2. Open your API Proxy and click the **Develop** tab to see the flow editor (you may have to move the panes to see the full request and response flow lines)
 
-* Click **+Step** on the request flow and select *Verify API Key* policy from the *Security* section of the list.  The name can be changed or left at the default.
+3. Click **+Step** on the request flow and select *Verify API Key* policy from the *Security* section of the list.  The name can be changed or left at the default.
 
-* Click **Add**
+4. Click **Add**
 
-* The policy will be added after any policies you previously had in the Request flow.  Since we likely want this to occur first, drag the new policy to be the leftmost.
+5. The policy will be added after any policies you previously had in the Request flow.  Since we likely want this to occur first, drag the new policy to be the leftmost.
 
-* With the *Verify API Key* policy selected, you can see its configuration (the default policy configuration is below).  Note that the API Key is being retrieved from the context as the variable *request.queryparam.apikey*.  This is the default but the policy can be configured to retrieve the key from any parameter key you prefer.
+6. With the *Verify API Key* policy selected, you can see its configuration (the default policy configuration is below).  Note that the API Key is being retrieved from the context as the variable *request.queryparam.apikey*.  This is the default but the policy can be configured to retrieve the key from any parameter key you prefer.
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -163,19 +165,19 @@ An App Developer can create any number of Apps.  Each App can register for any n
 </VerifyAPIKey>
 ```
 
-* **Save** the API Proxy.
+7. **Save** the API Proxy.
 
-* Click the **Trace** tab near the top of the window.
+8. Click the **Trace** tab near the top of the window.
 
-* Click **Start Trace Session** to begin a trace session.
+9. Click **Start Trace Session** to begin a trace session.
 
-* Click **Send** to send a request.  If your API Proxy requires query parameters, add them  prior to sending (Do not add the API Key yet)
+10. Click **Send** to send a request.  If your API Proxy requires query parameters, add them  prior to sending (Do not add the API Key yet)
 
-* You should see a 401 (unauthorized) response for your API Call because the API Proxy was expecting an API Key as a query parameter.  See the trace session below
+   You should see a 401 (unauthorized) response for your API Call because the API Proxy was expecting an API Key as a query      parameter.  See the trace session below
 
-* Now add the query parameter ```?apikey={your_api_key}``` to the URL in the trace tool and try again.  (Use the API Key you created [here](#bookmark=id.mueb50zfeta3)) and resend the request.
+11. Now add the query parameter ```?apikey={your_api_key}``` to the URL in the trace tool and try again.  (Use the API Key you created [here](#bookmark=id.mueb50zfeta3)) and resend the request.
 
-* You should see a 2xx response code and the Trace for that request should show that the Verify API Key policy is now passing.
+   You should see a 2xx response code and the Trace for that request should show that the Verify API Key policy is now            passing.
 
 ![image alt text](./media/image_11.png)
 
@@ -218,4 +220,3 @@ In this lab you learned how to protect your API Proxy using the Verify API Key p
 How did you like this lab? Rate [here](https://goo.gl/forms/XxDqVtWHnyFdEChv1).
 
 Now go to [Lab-5](https://github.com/apigee/devjam3/tree/master/Labs/Core/Lab%205%20Traffic%20Management%20-%20Rate%20Limit%20APIs)
-
