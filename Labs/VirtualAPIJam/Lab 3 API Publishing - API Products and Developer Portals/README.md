@@ -112,7 +112,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 # Lab Video
 
-If you would rather watch a video that covers this topic, point your browser [here](https://www.youtube.com/watch?v=_gDpzDJPNQg).
+If you would rather watch a video that covers this topic, point your browser [here](https://www.youtube.com/watch?v=_gDpzDJPNQg). (note: instead of using the "Street Carts" sample, use the "Employee API" that you have built in Lab 1).
 
 # Earn Extra-points
 
