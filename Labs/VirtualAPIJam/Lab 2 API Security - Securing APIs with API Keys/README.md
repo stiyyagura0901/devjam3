@@ -91,7 +91,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 # Lab Video
 
-If you would rather watch a video that covers this topic, point your browser [here](https://youtu.be/3nUFCOgGlS8).
+If you would rather watch a video that covers this topic, point your browser [here](https://youtu.be/3nUFCOgGlS8). (note: you only need to watch until the 3:00 minute mark for this specific lab).
 
 # Quiz
 
