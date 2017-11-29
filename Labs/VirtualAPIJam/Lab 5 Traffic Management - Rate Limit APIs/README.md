@@ -1,6 +1,6 @@
 # Traffic Management : Rate Limit APIs
 
-*Duration : 15 mins (Instructor Led)*
+*Duration : 15 mins*
 
 *Persona : API Team / API Product Manager*
 
