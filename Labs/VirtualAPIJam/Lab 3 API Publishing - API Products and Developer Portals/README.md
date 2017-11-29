@@ -1,6 +1,6 @@
 # API Publishing: API Products and Developer Portals
 
-*Duration : 25 mins*
+*Duration : 15 mins*
 
 *Persona : API Team*
 
