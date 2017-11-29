@@ -1,6 +1,6 @@
 # API Security : Securing APIs with API Key
 
-*Duration : 10 mins (Instructor Led)*
+*Duration : 10 mins*
 
 *Persona : API Team*
 
