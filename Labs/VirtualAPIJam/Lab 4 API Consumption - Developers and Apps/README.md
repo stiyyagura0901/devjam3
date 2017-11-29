@@ -1,6 +1,6 @@
 # API Consumption : Developers and Apps 
 
-*Duration : 20 mins (Instructor Led)*
+*Duration : 15 mins*
 
 *Persona : Developer*
 
