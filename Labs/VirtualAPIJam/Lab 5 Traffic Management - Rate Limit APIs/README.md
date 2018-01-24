@@ -46,7 +46,7 @@ Note: As you will have already completed Labs 1 - 4 and are familiar with how to
 
 ![image alt text](./media/image_0.png)
 
-* Create 2 new API Products that include this proxy, ‘**{your_initials}**_Employees Bronze Product’ and ‘**{your_initials}**_Employees Platinum Product’ (refer back to Lab 3 if you don't remember how to create an API Product)
+* Create 2 new API Products that include this proxy, ‘**{your_initials}**_Employees Bronze Product’ and ‘**{your_initials}**_Employees Platinum Product’ (refer back to [Lab-3](../Lab%203%20API%20Publishing%20-%20API%20Products%20and%20Developer%20Portals) if you don't remember how to create an API Product)
 
 For both products specify as before:
 
