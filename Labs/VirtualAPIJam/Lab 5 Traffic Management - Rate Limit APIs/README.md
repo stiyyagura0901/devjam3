@@ -16,15 +16,15 @@ Secondly, Apigee provides the capability to apply API Quota settings at the ‘A
 
 # Pre-requisites
 
-You must have completed the *API Security - Securing APIs with API Keys* lab in order to run this lab. 
+You must have completed Labs 1 - 4 in order to run this lab. 
 
 # Instructions
 
-Note: As you will have already completed the *API Security - Securing APIs with API Keys* lab and are familiar with how to setup API Products and Developer Apps, and how to use the test client to specify an API Key, detailed instructions for those steps will be omitted here. Refer back to the *API Security - Securing APIs with API Keys* lab if you need to see detailed instructions for those steps.
+Note: As you will have already completed Labs 1 - 4 and are familiar with how to setup API Products and Developer Apps, and how to use the test client to specify an API Key, detailed instructions for those steps will be omitted here. Refer back to the previous labs if you need to see detailed instructions for those steps.
 
 * Login to Edge Management UI.
 
-* Open up the **Develop** tab of your Employees API that you used in the previous lab.
+* Open up the **Develop** tab of your Employees API that you've used in the previous labs.
 
 * In the proxy request pre-flow add a **Quota policy** directly after the *Verify API Key Policy* with the following configuration (note that in the below configuration ‘Verify-API-Key-1’ refers to the name of the Verify API Key policy that you had added. If you used a different name you will need to alter this in the configuration):
 
@@ -46,7 +46,7 @@ Note: As you will have already completed the *API Security - Securing APIs with 
 
 ![image alt text](./media/image_0.png)
 
-* Create 2 new API Products that include this proxy, ‘**{your_initials}**_Employees Bronze Product’ and ‘**{your_initials}**_Employees Platinum Product’
+* Create 2 new API Products that include this proxy, ‘**{your_initials}**_Employees Bronze Product’ and ‘**{your_initials}**_Employees Platinum Product’ (refer back to Lab 3 if you don't remember how to create an API Product)
 
 For both products specify as before:
 
@@ -64,7 +64,7 @@ For the **Platinum** product specify a quota limit of 1000 requests per minute:
 
 ![image alt text](./media/image_2.png)	
 
-* Using the Developer Portal, register 2 new Developer Apps, one for each of your new products. Record the API Keys for each App.
+* Using the Developer Portal, register 2 new Developer Apps, one for each of your new products (refer back to Lab 4 if you don't remember how to register a developer app). Record the API Keys for each App.
 
 * Launch the [REST Test client](https://apigee-rest-client.appspot.com/) and run some tests using each API Key. Verify that with the *Bronze* API key that you cannot send in more than 1 request per minute without triggering a quota exceeded exception:
 
