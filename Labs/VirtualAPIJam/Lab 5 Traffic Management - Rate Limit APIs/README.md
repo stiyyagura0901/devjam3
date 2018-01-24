@@ -64,7 +64,7 @@ For the **Platinum** product specify a quota limit of 1000 requests per minute:
 
 ![image alt text](./media/image_2.png)	
 
-* Using the Developer Portal, register 2 new Developer Apps, one for each of your new products (refer back to Lab 4 if you don't remember how to register a developer app). Record the API Keys for each App.
+* Using the Developer Portal, register 2 new Developer Apps, one for each of your new products (refer back to [Lab-4](../Lab%204%20API%20Consumption%20-%20Developers%20and%20Apps) if you don't remember how to register a developer app). Record the API Keys for each App.
 
 * Launch the [REST Test client](https://apigee-rest-client.appspot.com/) and run some tests using each API Key. Verify that with the *Bronze* API key that you cannot send in more than 1 request per minute without triggering a quota exceeded exception:
 
