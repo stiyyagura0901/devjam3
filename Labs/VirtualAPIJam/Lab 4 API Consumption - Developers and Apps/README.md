@@ -94,9 +94,23 @@ Typically, developers who want to consume APIs go to developer portal and regist
 
 ![image alt text](./media/image_17.png)
 
-* *Congratulations*, You have successfully generated API key which can be used to make secured API Calls.
+* Now you have successfully generated API key which can be used to make secured API Calls.
 
 ![image alt text](./media/image_18.png)
+
+* From the main Apigee UI (not the portal), go back to your Employee API and click the **Trace** tab in the upper right.
+
+* Click **Start Trace Session** to begin a trace session.
+
+* Click **Send** to send a request.  If your API Proxy requires query parameters, add them  prior to sending (Do not add the API Key yet)
+
+   You should see a 401 (unauthorized) response for your API Call because the API Proxy was expecting an API Key as a query      parameter.  See the trace session below
+
+* Now add the query parameter ```?apikey={your_api_key}``` to the URL in the trace tool and try again.  (Replace ```{your_api_key}``` with the API Key you just created in this Lab and resend the request.
+
+   You should see a 2xx response code and the Trace for that request should show that the Verify API Key policy is now            passing.
+
+![image alt text](./media/image_11.png)
 
 # Lab Video
 
