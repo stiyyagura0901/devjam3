@@ -102,7 +102,7 @@ Typically, developers who want to consume APIs go to developer portal and regist
 
 * Click **Start Trace Session** to begin a trace session.
 
-* Click **Send** to send a request.  If your API Proxy requires query parameters, add them  prior to sending (Do not add the API Key yet)
+* Click **Send** to send a request (Do not add the API Key to they query string yet).
 
    You should see a 401 (unauthorized) response for your API Call because the API Proxy was expecting an API Key as a query      parameter.  See the trace session below
 
@@ -110,7 +110,7 @@ Typically, developers who want to consume APIs go to developer portal and regist
 
    You should see a 2xx response code and the Trace for that request should show that the Verify API Key policy is now            passing.
 
-![image alt text](./media/image_11.png)
+![image alt text](./media/image_19.png)
 
 # Lab Video
 
