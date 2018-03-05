@@ -94,11 +94,11 @@ Typically, developers who want to consume APIs go to developer portal and regist
 
 ![image alt text](./media/image_17.png)
 
-* Now you have successfully generated API key which can be used to make secured API Calls.
+* You have now successfully generated an API Key which can be used to make secured API Calls (You may need to refresh your browser to see the API Key).
 
 ![image alt text](./media/image_18.png)
 
-* From the main Apigee UI (not the portal), go back to your Employee API and click the **Trace** tab in the upper right.
+* From the main Apigee UI (not the Developer Portal), go back to the Employee API you've already created and click the **Trace** tab in the upper right.
 
 * Click **Start Trace Session** to begin a trace session.
 
