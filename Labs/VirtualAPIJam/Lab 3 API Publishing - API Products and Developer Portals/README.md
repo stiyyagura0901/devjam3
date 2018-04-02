@@ -88,13 +88,9 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_7.png)
 
-* Click **Review** to review selections made prior to creating Snapshot.
+* Select the "Registered Users" option so that only registered API consumers can access the API product through the portal. Click **Finish** to publish the API product (and OpenAPI Specification Snapshot) to the Developer Portal.
 
 ![image alt text](./media/image_8.png)
-
-* Review selections and click **Save** to publish the API product (and OpenAPI Specification Snapshot) to the Developer Portal
-
-![image alt text](./media/image_9.png)
 
 * You should now see your new API Product published to the portal.
 
