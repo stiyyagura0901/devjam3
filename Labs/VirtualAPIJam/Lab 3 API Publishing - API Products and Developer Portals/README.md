@@ -84,7 +84,7 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_6.png)
 
-* Select the OpenAPI Specification from which to create a Snapshot. (NOTE: technically, you should update the "host:" and "path:" variables in your OpenAPI Spec that you created in the first lab.  However, for the purposes of this lab, it is also OK to use your OpenAPI Spec as is.)
+* Select the OpenAPI Specification from which to create a Snapshot. (NOTE: technically, you should update the "host:" and "path:" variables in your OpenAPI Spec that you created in Lab 1 so they now point to your API proxy hosted on Apigee.  However, for the purposes of this lab, it is also OK to use your existing OpenAPI Spec as is.)
 
 ![image alt text](./media/image_7.png)
 
