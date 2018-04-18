@@ -56,7 +56,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 * Menu: **Develop > API Proxies**
 
-* Open your API Proxy and click the **Develop** tab to see the flow editor (you may have to move the panes to see the full request and response flow lines)
+* Open your API Proxy and click the **Develop** tab (in the upper right area of the page) to see the flow editor (you may have to move the panes to see the full request and response flow lines)
 
 * Click **+Step** on the request flow and select *Verify API Key* policy from the *Security* section of the list.  The name can be changed or left at the default.
 
