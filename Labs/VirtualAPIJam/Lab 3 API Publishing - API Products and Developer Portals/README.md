@@ -84,13 +84,11 @@ Note: We are adding the entire API Proxy to the API Product.  We can just as eas
 
 ![image alt text](./media/image_6.png)
 
-* Select OpenAPI Specification from which to create a Snapshot.
+* Select the OpenAPI Specification from which to create a Snapshot. (NOTE: technically, you should update the "host:" and "path:" variables in your OpenAPI Spec that you created in the first lab.  However, for the purposes of this lab, it is also OK to use your OpenAPI Spec as is.)
 
 ![image alt text](./media/image_7.png)
 
-* Select the "Registered Users" option so that only registered API consumers can access the API product through the portal. Click **Finish** to publish the API product (and OpenAPI Specification Snapshot) to the Developer Portal.
-
-![image alt text](./media/image_8.png)
+* Select the "Anonymous" option so anyone can view this API through the portal. Click **Finish** to publish the API product (and OpenAPI Specification Snapshot) to the Developer Portal.
 
 * You should now see your new API Product published to the portal.
 
