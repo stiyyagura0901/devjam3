@@ -34,7 +34,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Enter spec details. Replace **{your-initials}** with the initials of your name.
 
-  * File Name: **{your-initials}**_mock_target_api_spec
+  * File Name: **{your-initials}**_mock_target_spec
 
   * URL: [https://raw.githubusercontent.com/rmistry75/devjam3/feature/update_sample_backend/Labs/VirtualAPIJam/Lab%201%20API%20Design%20-%20Create%20a%20Reverse%20Proxy%20from%20OpenAPI%20Spec/assets/ApigeeMockTargetSwagger.yml](https://raw.githubusercontent.com/rmistry75/devjam3/feature/update_sample_backend/Labs/VirtualAPIJam/Lab%201%20API%20Design%20-%20Create%20a%20Reverse%20Proxy%20from%20OpenAPI%20Spec/assets/ApigeeMockTargetSwagger.yml)
 
@@ -64,7 +64,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/select_use_openapi.png)
 
-* You should see a popup with list of Specs. Select **{your-initials}**_mock_target_api_spec and click **Select.**
+* You should see a popup with list of Specs. Select **{your-initials}**_mock_target_spec and click **Select.**
 
 ![image alt text](./media/select_spec.png)
 
