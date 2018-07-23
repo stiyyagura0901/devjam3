@@ -1,6 +1,6 @@
 # API Design : Create a Reverse Proxy from OpenAPI Spec
 
-*Duration : 10 mins* 
+*Duration : 10 mins*
 
 *Persona : API Team*
 
@@ -10,7 +10,7 @@ You have a requirement to create a reverse proxy for taking HTTP requests from t
 
 # How can Apigee Edge help?
 
-Apigee Edge enables you to quickly expose backend services as APIs. You do this by creating an API proxy that provides a facade for the backend service that you want to expose. Apigee Edge out of the box supports the OpenAPI specification, allowing you to auto-generate API Proxies. Apigee Edge also has an OpenAPI specification editor & store which you can use to maintain your OpenAPI specifications. 
+Apigee Edge enables you to quickly expose backend services as APIs. You do this by creating an API proxy that provides a facade for the backend service that you want to expose. Apigee Edge out of the box supports the OpenAPI specification, allowing you to auto-generate API Proxies. Apigee Edge also has an OpenAPI specification editor & store which you can use to maintain your OpenAPI specifications.
 
 The API proxy decouples your backend service implementation from the API that developers consume. This shields developers from future changes to your backend services. As you update backend services, developers, insulated from those changes, can continue to call the API uninterrupted.
 
@@ -22,23 +22,23 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 # Instructions
 
-* Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI. 
+* Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI.
 
 * Select **Develop → Specs** in the side navigation menu
 
-![image alt text](./media/image_0.png)
+![image alt text](./media/navigate_to_specs.png)
 
 * Click **+Spec.** Click on **Import URL** to add a new spec from existing source.
 
-![image alt text](./media/image_1.png)
+![image alt text](./media/import_spec_as_url.png)
 
 * Enter spec details. Replace **{your-initials}** with the initials of your name.
 
-  * File Name: **{your-initials}**_employee_api_spec
+  * File Name: **{your-initials}**_mock_target_api_spec
 
-  * URL: [http://playground.apistudio.io/070cde0a-44f7-4e2c-8085-6e1020db7baf/spec](http://playground.apistudio.io/070cde0a-44f7-4e2c-8085-6e1020db7baf/spec)
+  * URL: [https://raw.githubusercontent.com/rmistry75/devjam3/feature/update_sample_backend/Labs/VirtualAPIJam/Lab%201%20API%20Design%20-%20Create%20a%20Reverse%20Proxy%20from%20OpenAPI%20Spec/assets/ApigeeMockTargetSwagger.yml](https://raw.githubusercontent.com/rmistry75/devjam3/feature/update_sample_backend/Labs/VirtualAPIJam/Lab%201%20API%20Design%20-%20Create%20a%20Reverse%20Proxy%20from%20OpenAPI%20Spec/assets/ApigeeMockTargetSwagger.yml)
 
-![image alt text](./media/image_2.png)
+![image alt text](./media/import_spec.png)
 
 **	**
 
@@ -46,77 +46,77 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Spec has been imported into Apigee Edge & Ready to use. You should see your spec in the list. For example,
 
-![image alt text](./media/image_3.png)
+![image alt text](./media/validate_imported_spec.png)
 
-* Click on **{your-initials}**_employee_api_spec from the list to access Open API spec editor & interactive documentation that lists API details & API Resources.
+* Click on **{your-initials}**_mock_target_spec from the list to access Open API spec editor & interactive documentation that lists API details & API Resources.
 
-![image alt text](./media/image_4.png)
+![image alt text](./media/view_imported_spec.png)
 
 * It’s time to create Apigee API Proxy from Open API Spec. Click on **Develop > API Proxies** from side navigation menu.
 
-![image alt text](./media/image_5.jpg)
+![image alt text](./media/navigate_to_proxies.jpg)
 
-* Click **+Proxy** The Build a Proxy wizard is invoked. 
-![image alt text](./media/image_6.jpg)
+* Click **+Proxy** The Build a Proxy wizard is invoked.
+![image alt text](./media/add_proxy.png)
 
 * Select **Reverse proxy**, Click on **Use OpenAPI** below reverse proxy option.
 
-![image alt text](./media/image_7.png)
+![image alt text](./media/select_use_openapi.png)
 
-* You should see a popup with list of Specs. Select **{your-initials}**_employee_api_spec and click **Select.** 
+* You should see a popup with list of Specs. Select **{your-initials}**_employee_api_spec and click **Select.**
 
-![image alt text](./media/image_8.png)
+![image alt text](./media/select_spec.png)
 
 * You can see the selected OpenAPI Spec URL below the Reverse Proxy option, Click **Next** to continue.
 
-![image alt text](./media/image_9.png)
+![image alt text](./media/verify_spec_selection.png)
 
-* Enter details in the proxy wizard. Replace **{your-initials}** with the initials of your name. 
+* Enter details in the proxy wizard. Replace **{your-initials}** with the initials of your name.
 
-  * Proxy Name: **{your_initials}**_employee_proxy
+  * Proxy Name: **{your_initials}**_mock_target_proxy
 
-  * Proxy Base Path: /v1/**{your_initials}**_employee_proxy
+  * Proxy Base Path: /**{your_initials}**_mock_target_proxy
 
   * Existing API: Observe the field value which is auto filled from OpenAPI Spec.
 
-![image alt text](./media/image_10.png)
+![image alt text](./media/set_proxy_details.png)
 
 * Verify the values and click **Next**.
 
 * You can select, de-select list of API Proxy Resources that are pre-filled from OpenAPI Spec. Select all & Click on **Next**
 
-![image alt text](./media/image_11.png)
+![image alt text](./media/verify_flows.png)
 
-* Select **Pass through (none)** for the authorization in order to choose not to apply any security policy for the proxy. Click Next. 
-![image alt text](./media/image_12.jpg)
+* Select **Pass through (none)** for the authorization in order to choose not to apply any security policy for the proxy. Click Next.
+![image alt text](./media/set_security.png)
 
 * Go with the **default Virtual Host** configuration.
-![image alt text](./media/image_13.jpg)
+![image alt text](./media/verify_virtual_hosts.png)
 
-* Ensure that only the **test** environment is selected to deploy to and click **Build and Deploy** 
-![image alt text](./media/image_14.jpg)
+* Ensure that only the **test** environment is selected to deploy to and click **Build and Deploy**
+![image alt text](./media/set_build.jpg)
 
-* Once the API proxy is built and deployed **click** the link to view your proxy in the proxy editor. 
+* Once the API proxy is built and deployed **click** the link to view your proxy in the proxy editor.
 
-![image alt text](./media/image_15.png)
+![image alt text](./media/view_summary.png)
 
 * You should see the proxy **Overview** screen
-![image alt text](./media/image_16.png)
+![image alt text](./media/overview.png)
 
 * *Congratulations!* ...You have now built a reverse proxy for an existing backend service.
 
 * Let us test the newly built API proxy using the [REST Client](https://apigee-rest-client.appspot.com/). Open the REST Client on a new browser window.  
 
-* Copy the URL for your API proxy. 
+* Copy the URL for your API proxy.
 
-![image alt text](./media/image_17.png)
+![image alt text](./media/copy_url.png)
 
 * Paste the link into the REST Client and make a GET call
 
-![image alt text](./media/image_18.png)
+![image alt text](./media/rest_client.png)
 
 * You should see a success response similar to this -
-![image alt text](./media/image_19.jpg)
+![image alt text](./media/rest_client_response.png)
 
 # Save the API Proxy
 
@@ -124,11 +124,11 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * Save the API Proxy by downloading the proxy bundle, See screenshot below for instructions.
 
-![image alt text](./media/image_20.png)
+![image alt text](./media/download_revision.png)
 
 # Lab Video
 
-If you like to learn by watching, here is a short video on creating a reverse proxy using Open API Specification - [https://www.youtube.com/watch?v=3XBG9QOUPzg](https://www.youtube.com/watch?v=3XBG9QOUPzg) 
+If you like to learn by watching, here is a short video on creating a reverse proxy using Open API Specification - [https://www.youtube.com/watch?v=3XBG9QOUPzg](https://www.youtube.com/watch?v=3XBG9QOUPzg)
 
 # Earn Extra-points
 
@@ -136,7 +136,7 @@ Now that you have created a reverse proxy using an OpenAPI spec, click on the "D
 
 # Quiz
 
-1. How do you download (backup) the proxy you just created ? 
+1. How do you download (backup) the proxy you just created ?
 
 # Summary
 
@@ -144,17 +144,16 @@ That completes this hands-on lesson. In this simple lab you learned how to creat
 
 # References
 
-* Useful Apigee documentation links on API Proxies - 
+* Useful Apigee documentation links on API Proxies -
 
-    * Build a simple API Proxy - [http://docs.apigee.com/api-services/content/build-simple-api-proxy](http://docs.apigee.com/api-services/content/build-simple-api-proxy) 
+    * Build a simple API Proxy - [http://docs.apigee.com/api-services/content/build-simple-api-proxy](http://docs.apigee.com/api-services/content/build-simple-api-proxy)
 
-    * Best practices for API proxy design and development - [http://docs.apigee.com/api-services/content/best-practices-api-proxy-design-and-development](http://docs.apigee.com/api-services/content/best-practices-api-proxy-design-and-development) 
+    * Best practices for API proxy design and development - [http://docs.apigee.com/api-services/content/best-practices-api-proxy-design-and-development](http://docs.apigee.com/api-services/content/best-practices-api-proxy-design-and-development)
 
-* Watch this 4minute video on "Anatomy of an API proxy" - [https://youtu.be/O5DJuCXXIRg](https://youtu.be/O5DJuCXXIRg) 
+* Watch this 4minute video on "Anatomy of an API proxy" - [https://youtu.be/O5DJuCXXIRg](https://youtu.be/O5DJuCXXIRg)
 
 # Rate this lab
 
 How did you like this lab? Rate [here](https://goo.gl/forms/G8LAPkDWVNncR9iw2).
 
 Now go to [Lab-2](../Lab%202%20API%20Security%20-%20Securing%20APIs%20with%20API%20Keys)
-
