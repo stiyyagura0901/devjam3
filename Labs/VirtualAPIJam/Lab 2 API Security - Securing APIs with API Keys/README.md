@@ -30,7 +30,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 ![image alt text](./media/navigate_to_proxies.png)
 
-* Select the **{your_initials}**_employee_proxy that you created in an earlier lab exercise.
+* Select the **{your_initials}**_mock_target_proxy that you created in an earlier lab exercise.
 
 ![image alt text](./media/navigate_to_proxy.png)
 
