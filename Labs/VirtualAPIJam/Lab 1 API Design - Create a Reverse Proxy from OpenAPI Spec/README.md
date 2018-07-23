@@ -54,9 +54,10 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 * It’s time to create Apigee API Proxy from Open API Spec. Click on **Develop > API Proxies** from side navigation menu.
 
-![image alt text](./media/navigate_to_proxies.jpg)
+![image alt text](./media/navigate_to_proxies.png)
 
 * Click **+Proxy** The Build a Proxy wizard is invoked.
+
 ![image alt text](./media/add_proxy.png)
 
 * Select **Reverse proxy**, Click on **Use OpenAPI** below reverse proxy option.
