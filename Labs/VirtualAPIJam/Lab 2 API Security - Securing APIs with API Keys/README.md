@@ -28,15 +28,15 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 * Select **Develop → API Proxies**
 
-![image alt text](./media/image_0.jpg)
+![image alt text](./media/navigate_to_proxies.png)
 
 * Select the **{your_initials}**_employee_proxy that you created in an earlier lab exercise.
 
-![image alt text](./media/image_1_123.png)
+![image alt text](./media/navigate_to_proxy.png)
 
 * Verify that the API Proxy is deployed to an environment from the **Overview** page.  Environment(s) to which the selected revision of the API Proxy is deployed will be indicated by a green circle.  If it is not deployed, click an environment from the "Deployment" pull-down to deploy the API Proxy to that environment.
 
- ![image alt text](./media/image_2.png)
+ ![image alt text](./media/overview_proxy.png)
 
 * Verify that you can successfully make calls using the built-in trace tool.
 
@@ -87,7 +87,7 @@ For this lab, you will need an API Proxy that is not currently secured.  If you 
 
 * NOTE: In Lab 4, you will get an API Key that will allow you to make this API call successfully.
 
-![image alt text](./media/image_11.png)
+![image alt text](./media/trace.png)
 
 # Lab Video
 
@@ -114,4 +114,3 @@ In this lab you learned how to protect your API Proxy using the Verify API Key p
 How did you like this lab? Rate [here](https://goo.gl/forms/XxDqVtWHnyFdEChv1).
 
 Now go to [Lab-3](../Lab%203%20API%20Publishing%20-%20API%20Products%20and%20Developer%20Portals)
-
