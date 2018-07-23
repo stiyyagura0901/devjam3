@@ -98,7 +98,7 @@ Typically, developers who want to consume APIs go to developer portal and regist
 
 ![image alt text](./media/get_key.png)
 
-* From the main Apigee UI (not the Developer Portal), go back to the Employee API you've already created and click the **Trace** tab in the upper right.
+* From the main Apigee UI (not the Developer Portal), go back to the Mock Target API you've already created and click the **Trace** tab in the upper right.
 
 * Click **Start Trace Session** to begin a trace session.
 
