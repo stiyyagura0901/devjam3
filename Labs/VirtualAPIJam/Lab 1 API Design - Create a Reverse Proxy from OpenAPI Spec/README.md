@@ -95,7 +95,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 ![image alt text](./media/verify_virtual_hosts.png)
 
 * Ensure that only the **test** environment is selected to deploy to and click **Build and Deploy**
-![image alt text](./media/set_build.jpg)
+![image alt text](./media/set_build.png)
 
 * Once the API proxy is built and deployed **click** the link to view your proxy in the proxy editor.
 
