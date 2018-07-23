@@ -60,9 +60,9 @@ For the **Bronze** product specify a quota limit of 1 request per minute:
 
 ![image alt text](./media/image_1.png)
 
-For the **Platinum** product specify a quota limit of 1000 requests per minute:
+For the **Platinum** product specify a quota limit of 10 requests per minute:
 
-![image alt text](./media/image_2.png)
+![image alt text](./media/quota_platinum.png)
 
 * Using the Developer Portal, register 2 new Developer Apps, one for each of your new products (refer back to [Lab-4](../Lab%204%20API%20Consumption%20-%20Developers%20and%20Apps) if you don't remember how to register a developer app). Record the API Keys for each App.
 
