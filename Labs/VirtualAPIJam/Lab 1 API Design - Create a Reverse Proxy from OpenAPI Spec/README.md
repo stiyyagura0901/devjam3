@@ -64,7 +64,7 @@ Basic understanding of [OpenAPI Specification](https://github.com/OAI/OpenAPI-Sp
 
 ![image alt text](./media/select_use_openapi.png)
 
-* You should see a popup with list of Specs. Select **{your-initials}**_employee_api_spec and click **Select.**
+* You should see a popup with list of Specs. Select **{your-initials}**_mock_target_api_spec and click **Select.**
 
 ![image alt text](./media/select_spec.png)
 
