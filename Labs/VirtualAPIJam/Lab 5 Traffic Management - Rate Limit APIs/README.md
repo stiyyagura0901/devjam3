@@ -58,7 +58,7 @@ For both products specify as before:
 
 For the **Bronze** product specify a quota limit of 1 request per minute:
 
-![image alt text](./media/image_1.png)
+![image alt text](./media/quota_bronze.png)
 
 For the **Platinum** product specify a quota limit of 10 requests per minute:
 
